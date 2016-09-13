@@ -1,0 +1,6 @@
+ubuntu忘记密码如何操作
+1、开机到grub时，用上下键移到第二行的恢复模式，按e（注意不是回车）
+   即Ubuntu，With Linux 3.2.0-23-generic（recovery mode）
+2、把ro recovery nomodeset 改成rw single init=/bin/bash     
+   然后按ctrl+x    就可以进入 单用户模式。 
+   passwd xxx  即可修改密码，重启即好
